@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hristo.toggletraning.Start_Activity"
+    android:background="@drawable/bacground2">
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDisco"
+        android:text="Disco mode"
+        android:background="@drawable/btn_select_option"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:layout_below="@+id/buttonSlide"
+        android:layout_alignLeft="@+id/exitButton"
+        android:layout_alignStart="@+id/exitButton"
+        android:layout_marginTop="40dp"
+
+
+
+     />
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSlide"
+        android:text="Slide color"
+        android:background="@drawable/btn_select_option"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:layout_below="@+id/buttonIridescent"
+        android:layout_alignLeft="@+id/buttonIridescent"
+        android:layout_alignStart="@+id/buttonIridescent"
+        android:layout_marginTop="40dp"
+       />
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonIridescent"
+        android:background="@drawable/btn_select_option"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:text="Iridescent mode"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/exitButton"
+        android:layout_alignStart="@+id/exitButton"
+        android:layout_marginTop="20dp"
+
+        />
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exitButton"
+        android:text="EXIT"
+        android:background="@drawable/btn_select_option"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:layout_below="@+id/ButtonDisco"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
+
+
+
+      />
+
+</RelativeLayout>

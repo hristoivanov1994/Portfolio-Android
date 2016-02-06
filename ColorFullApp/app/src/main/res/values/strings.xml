@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Colorful</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start_">Colorful</string>
+    <string name="title_activity_slide">COLOR SLIDER</string>
+    <string name="title_activity_irridescent_color">Iridescent Color</string>
+</resources>
